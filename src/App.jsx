@@ -125,7 +125,7 @@ const App = () => {
 
       <div id='skill' className="w-full py-[81px] border-t border-[#E5E7EB] dark:border-[#374151] bg-white dark:bg-black transition-all duration-500">
         <div className="w-[1100px] mx-auto">
-          <label className="font-light text-[36px] text-[#1F2937] hover:scale-110 tracking-widest uppercase opacity-95 block mb-20 hover:text-[#4a5566] dark:hover:text-[#D1D5DB] transition-all duration-700 cursor-default"
+          <label className="font-light text-[36px] text-[#1F2937] tracking-widest uppercase opacity-95 block mb-20 hover:text-[#4a5566] dark:hover:text-[#D1D5DB] transition-all duration-700 cursor-default"
             data-aos="fade-down"
             data-aos-duration="2000"
             data-aos-easing="ease-out-cubic"
