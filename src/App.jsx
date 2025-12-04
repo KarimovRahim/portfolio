@@ -448,77 +448,119 @@ const App = () => {
           </label>
 
           <div className="grid grid-cols-1 2xs:grid-cols-2 lg:grid-cols-4 gap-6 2xs:gap-8 lg:gap-12">
-            <div className="group shadow-lg rounded-2xl"
+            <a
+              href="https://wa.me/+992754454004"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group shadow-lg rounded-2xl block"
               data-aos="fade-up"
               data-aos-duration="1800"
               data-aos-easing="ease-out-back"
-              data-aos-delay="200">
-              <div className="bg-[#FbFbFb] dark:bg-[#111827] rounded-2xl p-6 2xs:p-8 border border-[#E5E7EB] dark:border-[#374151] hover:border-[#25D366] dark:hover:border-[#25D366] hover:shadow-xl dark:hover:shadow-2xl transition-all duration-500 cursor-default shadow-sm">
-                <div className="text-[#25D366] text-3xl 2xs:text-4xl mb-4 group-hover:scale-110 group-hover:rotate-3 transition-all duration-400">
-                  <FaWhatsapp size={32} className="2xs:w-10 2xs:h-10" />
+              data-aos-delay="200"
+            >
+              <div className="group shadow-lg rounded-2xl"
+                data-aos="fade-up"
+                data-aos-duration="1800"
+                data-aos-easing="ease-out-back"
+                data-aos-delay="200">
+                <div className="bg-[#FbFbFb] dark:bg-[#111827] rounded-2xl p-6 2xs:p-8 border border-[#E5E7EB] dark:border-[#374151] hover:border-[#25D366] dark:hover:border-[#25D366] hover:shadow-xl dark:hover:shadow-2xl transition-all duration-500 cursor-default shadow-sm">
+                  <div className="text-[#25D366] text-3xl 2xs:text-4xl mb-4 group-hover:scale-110 group-hover:rotate-3 transition-all duration-400">
+                    <FaWhatsapp size={32} className="2xs:w-10 2xs:h-10" />
+                  </div>
+                  <label className="font-normal text-[24px] 2xs:text-[28px] text-[#374151] dark:text-[#E5E7EB] group-hover:text-[#25D366] transition-all duration-400 cursor-default block">
+                    {t("text42")}
+                  </label>
+                  <label className="font-light text-[16px] 2xs:text-[18px] text-[#6B7280] dark:text-[#9CA3AF] mt-4 group-hover:text-[#374151] dark:group-hover:text-[#E5E7EB] group-hover:opacity-100 transition-all duration-500 cursor-default block">
+                    {t("text43")}
+                  </label>
                 </div>
-                <label className="font-normal text-[24px] 2xs:text-[28px] text-[#374151] dark:text-[#E5E7EB] group-hover:text-[#25D366] transition-all duration-400 cursor-default block">
-                  {t("text42")}
-                </label>
-                <label className="font-light text-[16px] 2xs:text-[18px] text-[#6B7280] dark:text-[#9CA3AF] mt-4 group-hover:text-[#374151] dark:group-hover:text-[#E5E7EB] group-hover:opacity-100 transition-all duration-500 cursor-default block">
-                  {t("text43")}
-                </label>
               </div>
-            </div>
-
-            <div id='contacs' className="group shadow-lg rounded-2xl"
+            </a>
+            <a
+              href="https://t.me/KarimovAleks"
+              target="_blank"
+              rel="noopener noreferrer"
+              id='contacts'
+              className="group shadow-lg rounded-2xl block"
               data-aos="fade-up"
               data-aos-duration="1800"
               data-aos-easing="ease-out-back"
-              data-aos-delay="400">
-              <div className="bg-[#FbFbFb] dark:bg-[#111827] rounded-2xl p-6 2xs:p-8 border border-[#E5E7EB] dark:border-[#374151] hover:border-[#0088CC] dark:hover:border-[#0088CC] hover:shadow-xl dark:hover:shadow-2xl transition-all duration-500 cursor-default shadow-sm">
-                <div className="text-[#0088CC] text-3xl 2xs:text-4xl mb-4 group-hover:scale-110 group-hover:-rotate-3 transition-all duration-400">
-                  <FaTelegramPlane size={32} className="2xs:w-10 2xs:h-10" />
+              data-aos-delay="400"
+            >
+              <div id='contacs' className="group shadow-lg rounded-2xl"
+                data-aos="fade-up"
+                data-aos-duration="1800"
+                data-aos-easing="ease-out-back"
+                data-aos-delay="400">
+                <div className="bg-[#FbFbFb] dark:bg-[#111827] rounded-2xl p-6 2xs:p-8 border border-[#E5E7EB] dark:border-[#374151] hover:border-[#0088CC] dark:hover:border-[#0088CC] hover:shadow-xl dark:hover:shadow-2xl transition-all duration-500 cursor-default shadow-sm">
+                  <div className="text-[#0088CC] text-3xl 2xs:text-4xl mb-4 group-hover:scale-110 group-hover:-rotate-3 transition-all duration-400">
+                    <FaTelegramPlane size={32} className="2xs:w-10 2xs:h-10" />
+                  </div>
+                  <label className="font-normal text-[24px] 2xs:text-[28px] text-[#374151] dark:text-[#E5E7EB] group-hover:text-[#0088CC] transition-all duration-400 cursor-default block">
+                    {t("text44")}
+                  </label>
+                  <label className="font-light text-[16px] 2xs:text-[18px] text-[#6B7280] dark:text-[#9CA3AF] mt-4 group-hover:text-[#374151] dark:group-hover:text-[#E5E7EB] group-hover:opacity-100 transition-all duration-500 cursor-default block">
+                    {t("text45")}
+                  </label>
                 </div>
-                <label className="font-normal text-[24px] 2xs:text-[28px] text-[#374151] dark:text-[#E5E7EB] group-hover:text-[#0088CC] transition-all duration-400 cursor-default block">
-                  {t("text44")}
-                </label>
-                <label className="font-light text-[16px] 2xs:text-[18px] text-[#6B7280] dark:text-[#9CA3AF] mt-4 group-hover:text-[#374151] dark:group-hover:text-[#E5E7EB] group-hover:opacity-100 transition-all duration-500 cursor-default block">
-                  {t("text45")}
-                </label>
               </div>
-            </div>
-
-            <div className="group shadow-lg rounded-2xl"
+            </a>
+            <a
+              href="https://instagram.com/rahim_844004"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group shadow-lg rounded-2xl block"
               data-aos="fade-up"
               data-aos-duration="1800"
               data-aos-easing="ease-out-back"
-              data-aos-delay="600">
-              <div className="bg-[#FbFbFb] dark:bg-[#111827] rounded-2xl p-6 2xs:p-8 border border-[#E5E7EB] dark:border-[#374151] hover:border-[#E4405F] dark:hover:border-[#E4405F] hover:shadow-xl dark:hover:shadow-2xl transition-all duration-500 cursor-default shadow-sm">
-                <div className="text-[#E4405F] text-3xl 2xs:text-4xl mb-4 group-hover:scale-110 group-hover:rotate-6 transition-all duration-400">
-                  <FaInstagram size={32} className="2xs:w-10 2xs:h-10" />
+              data-aos-delay="600"
+            >
+              <div className="group shadow-lg rounded-2xl"
+                data-aos="fade-up"
+                data-aos-duration="1800"
+                data-aos-easing="ease-out-back"
+                data-aos-delay="600">
+                <div className="bg-[#FbFbFb] dark:bg-[#111827] rounded-2xl p-6 2xs:p-8 border border-[#E5E7EB] dark:border-[#374151] hover:border-[#E4405F] dark:hover:border-[#E4405F] hover:shadow-xl dark:hover:shadow-2xl transition-all duration-500 cursor-default shadow-sm">
+                  <div className="text-[#E4405F] text-3xl 2xs:text-4xl mb-4 group-hover:scale-110 group-hover:rotate-6 transition-all duration-400">
+                    <FaInstagram size={32} className="2xs:w-10 2xs:h-10" />
+                  </div>
+                  <label className="font-normal text-[24px] 2xs:text-[28px] text-[#374151] dark:text-[#E5E7EB] group-hover:text-[#E4405F] transition-all duration-400 cursor-default block">
+                    {t("text46")}
+                  </label>
+                  <label className="w-auto font-light text-[14px] 2xs:text-[16px] text-[#6B7280] dark:text-[#9CA3AF] mt-4 group-hover:text-[#374151] dark:group-hover:text-[#E5E7EB] group-hover:opacity-100 transition-all duration-500 cursor-default block">
+                    {t("text47")}
+                  </label>
                 </div>
-                <label className="font-normal text-[24px] 2xs:text-[28px] text-[#374151] dark:text-[#E5E7EB] group-hover:text-[#E4405F] transition-all duration-400 cursor-default block">
-                  {t("text46")}
-                </label>
-                <label className="w-auto font-light text-[14px] 2xs:text-[16px] text-[#6B7280] dark:text-[#9CA3AF] mt-4 group-hover:text-[#374151] dark:group-hover:text-[#E5E7EB] group-hover:opacity-100 transition-all duration-500 cursor-default block">
-                  {t("text47")}
-                </label>
               </div>
-            </div>
-
-            <div className="group shadow-lg rounded-2xl"
+            </a>
+            <a
+              href="https://github.com/KarimovRahim"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group shadow-lg rounded-2xl block"
               data-aos="fade-up"
               data-aos-duration="1800"
               data-aos-easing="ease-out-back"
-              data-aos-delay="800">
-              <div className="bg-[#FbFbFb] dark:bg-[#111827] rounded-2xl p-6 2xs:p-8 border border-[#E5E7EB] dark:border-[#374151] hover:border-[#333333] dark:hover:border-[#f0f6fc] hover:shadow-xl dark:hover:shadow-2xl transition-all duration-500 cursor-default shadow-sm">
-                <div className="text-[#333333] dark:text-[#f0f6fc] text-3xl 2xs:text-4xl mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-400">
-                  <FaGithub size={32} className="2xs:w-10 2xs:h-10" />
+              data-aos-delay="800"
+            >
+              <div className="group shadow-lg rounded-2xl"
+                data-aos="fade-up"
+                data-aos-duration="1800"
+                data-aos-easing="ease-out-back"
+                data-aos-delay="800">
+                <div className="bg-[#FbFbFb] dark:bg-[#111827] rounded-2xl p-6 2xs:p-8 border border-[#E5E7EB] dark:border-[#374151] hover:border-[#333333] dark:hover:border-[#f0f6fc] hover:shadow-xl dark:hover:shadow-2xl transition-all duration-500 cursor-default shadow-sm">
+                  <div className="text-[#333333] dark:text-[#f0f6fc] text-3xl 2xs:text-4xl mb-4 group-hover:scale-110 group-hover:rotate-12 transition-all duration-400">
+                    <FaGithub size={32} className="2xs:w-10 2xs:h-10" />
+                  </div>
+                  <label className="font-normal text-[24px] 2xs:text-[28px] text-[#374151] dark:text-[#E5E7EB] group-hover:text-[#333333] dark:group-hover:text-[#f0f6fc] transition-all duration-400 cursor-default block">
+                    {t("text48")}
+                  </label>
+                  <label className="font-light text-[16px] 2xs:text-[18px] text-[#6B7280] dark:text-[#9CA3AF] mt-4 group-hover:text-[#374151] dark:group-hover:text-[#E5E7EB] group-hover:opacity-100 transition-all duration-500 cursor-default block">
+                    {t("text49")}
+                  </label>
                 </div>
-                <label className="font-normal text-[24px] 2xs:text-[28px] text-[#374151] dark:text-[#E5E7EB] group-hover:text-[#333333] dark:group-hover:text-[#f0f6fc] transition-all duration-400 cursor-default block">
-                  {t("text48")}
-                </label>
-                <label className="font-light text-[16px] 2xs:text-[18px] text-[#6B7280] dark:text-[#9CA3AF] mt-4 group-hover:text-[#374151] dark:group-hover:text-[#E5E7EB] group-hover:opacity-100 transition-all duration-500 cursor-default block">
-                  {t("text49")}
-                </label>
               </div>
-            </div>
+            </a>
           </div>
           <div
             data-aos="fade-up"
