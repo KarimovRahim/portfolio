@@ -74,7 +74,7 @@ const App = () => {
             <img src={logo} alt="" className="w-8 h-8 2xs:w-10 2xs:h-10 dark:invert dark:brightness-200 transition-all duration-500" />
             <label htmlFor="" className="font-bold text-[16px] 2xs:text-[18px] lg:text-[20px] text-black dark:text-white transition-colors duration-500">Personal</label>
           </div>
-          
+
           <div className="hidden lg:flex w-[440px] flex-row justify-between">
             <a href='#about' htmlFor="" className="font-semibold text-[20px] text-black dark:text-white transition-colors duration-500 hover:text-gray-600 dark:hover:text-gray-300 cursor-pointer">{t("header1")}</a>
             <a href='#skill' htmlFor="" className="font-semibold text-[20px] text-black dark:text-white transition-colors duration-500 hover:text-gray-600 dark:hover:text-gray-300 cursor-pointer">{t("header2")}</a>
@@ -82,7 +82,7 @@ const App = () => {
             <a href='#contacs' htmlFor="" className="font-semibold text-[20px] text-black dark:text-white transition-colors duration-500 hover:text-gray-600 dark:hover:text-gray-300 cursor-pointer">{t("header4")}</a>
           </div>
 
-          <button 
+          <button
             className="lg:hidden text-2xl text-black dark:text-white"
             onClick={toggleMobileMenu}
           >
@@ -99,9 +99,8 @@ const App = () => {
           </div>
         </div>
 
-        <div className={`lg:hidden absolute top-full left-0 w-full bg-gray-100 dark:bg-black border-b border-gray-600 shadow-lg transition-all duration-300 ${
-          isMobileMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'
-        }`}>
+        <div className={`lg:hidden absolute top-full left-0 w-full bg-gray-100 dark:bg-black border-b border-gray-600 shadow-lg transition-all duration-300 ${isMobileMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0 overflow-hidden'
+          }`}>
           <div className="flex flex-col p-4 space-y-4">
             <a href='#about' className="font-semibold text-[18px] text-black dark:text-white py-2 border-b border-gray-300 dark:border-gray-600 transition-colors duration-500 hover:text-gray-600 dark:hover:text-gray-300 cursor-pointer">{t("header1")}</a>
             <a href='#skill' className="font-semibold text-[18px] text-black dark:text-white py-2 border-b border-gray-300 dark:border-gray-600 transition-colors duration-500 hover:text-gray-600 dark:hover:text-gray-300 cursor-pointer">{t("header2")}</a>
@@ -132,31 +131,74 @@ const App = () => {
           <label htmlFor="" className="w-full lg:w-[600px] font-normal text-[16px] 2xs:text-[18px] text-[#71717A] dark:text-gray-400 mt-4 2xs:mt-6 transition-colors duration-500" data-aos="fade-up" data-aos-delay="1700">
             {t("text53")}
           </label>
+
           <div className="w-full max-w-[320px] flex flex-row justify-between mt-12 2xs:mt-16 lg:mt-20" data-aos="zoom-in-up" data-aos-delay="1900" data-aos-duration="1400">
-            <div className="group">
-              <div className="w-12 h-12 dark:bg-[#111827] 2xs:w-14 2xs:h-14 bg-white rounded-2xl text-[#25D366] flex items-center justify-center transition-all duration-500 hover:bg-[#25D366] hover:text-white hover:scale-110 hover:rotate-3 cursor-default hover:shadow-xl dark:hover:shadow-2xl shadow-lg">
-                <FaWhatsapp className="text-xl 2xs:text-2xl" />
+            <a
+              href="https://wa.me/+992754454004?text=Здравствуйте!%20Пишу%20с%20вашего%20сайта-портфолио"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group shadow-lg rounded-2xl block"
+              data-aos="fade-up"
+              data-aos-duration="1800"
+              data-aos-easing="ease-out-back"
+              data-aos-delay="200"
+            >
+              <div className="group">
+                <div className="w-12 h-12 dark:bg-[#111827] 2xs:w-14 2xs:h-14 bg-white rounded-2xl text-[#25D366] flex items-center justify-center transition-all duration-500 hover:bg-[#25D366] hover:text-white hover:scale-110 hover:rotate-3 cursor-default hover:shadow-xl dark:hover:shadow-2xl shadow-lg">
+                  <FaWhatsapp className="text-xl 2xs:text-2xl" />
+                </div>
               </div>
-            </div>
-
-            <div className="group">
-              <div className="w-12 h-12 dark:bg-[#111827] 2xs:w-14 2xs:h-14 bg-white rounded-2xl flex items-center text-[#0077b5] hover:text-white justify-center transition-all duration-500 hover:bg-[#0077b5] hover:scale-110 hover:-rotate-3 cursor-default shadow-lg">
-                <FaTelegramPlane className="text-xl 2xs:text-2xl" />
+            </a>
+            <a
+              href="https://t.me/KarimovAleks"
+              target="_blank"
+              rel="noopener noreferrer"
+              id='contacts'
+              className="group shadow-lg rounded-2xl block"
+              data-aos="fade-up"
+              data-aos-duration="1800"
+              data-aos-easing="ease-out-back"
+              data-aos-delay="400"
+            >
+              <div className="group">
+                <div className="w-12 h-12 dark:bg-[#111827] 2xs:w-14 2xs:h-14 bg-white rounded-2xl flex items-center text-[#0077b5] hover:text-white justify-center transition-all duration-500 hover:bg-[#0077b5] hover:scale-110 hover:-rotate-3 cursor-default shadow-lg">
+                  <FaTelegramPlane className="text-xl 2xs:text-2xl" />
+                </div>
               </div>
-            </div>
-
-            <div className="group">
-              <div className="w-12 h-12 dark:bg-[#111827] 2xs:w-14 2xs:h-14 bg-white rounded-2xl flex items-center justify-center transition-all duration-500 
+            </a>
+            <a
+              href="https://instagram.com/rahim_844004"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group shadow-lg rounded-2xl block"
+              data-aos="fade-up"
+              data-aos-duration="1800"
+              data-aos-easing="ease-out-back"
+              data-aos-delay="600"
+            >
+              <div className="group">
+                <div className="w-12 h-12 dark:bg-[#111827] 2xs:w-14 2xs:h-14 bg-white rounded-2xl flex items-center justify-center transition-all duration-500 
               hover:text-white hover:bg-linear-to-br hover:from-[#6a2c91] hover:via-[#c13584] hover:to-[#e1306c] text-[#E4405F] hover:scale-110 hover:rotate-6 cursor-default shadow-lg">
-                <FaInstagram className="text-xl 2xs:text-2xl" />
+                  <FaInstagram className="text-xl 2xs:text-2xl" />
+                </div>
               </div>
-            </div>
-
-            <div className="group">
-              <div className="w-12 h-12 dark:bg-[#111827] 2xs:w-14 2xs:h-14 bg-white rounded-2xl flex items-center justify-center transition-all duration-500 hover:bg-black dark:hover:bg-black hover:dark:border hover:dark:border-white hover:scale-110 text-black hover:text-white hover:rotate-12 cursor-default shadow-lg">
-                <FaGithub className="text-xl 2xs:text-2xl" />
+            </a>
+            <a
+              href="https://github.com/KarimovRahim"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group shadow-lg rounded-2xl block"
+              data-aos="fade-up"
+              data-aos-duration="1800"
+              data-aos-easing="ease-out-back"
+              data-aos-delay="800"
+            >
+              <div className="group">
+                <div className="w-12 h-12 dark:bg-[#111827] 2xs:w-14 2xs:h-14 bg-white rounded-2xl flex items-center justify-center transition-all duration-500 hover:bg-black dark:hover:bg-black hover:dark:border hover:dark:border-white hover:scale-110 text-black hover:text-white hover:rotate-12 cursor-default shadow-lg">
+                  <FaGithub className="text-xl 2xs:text-2xl" />
+                </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
         <img src={person} data-aos="zoom-in-right" data-aos-duration="2000" data-aos-delay="400"
